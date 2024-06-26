@@ -1,0 +1,38 @@
+{
+  "name": "wemake-vue-template",
+  "version": "1.0.0",
+  "description": "Bleeding edge vue template focused on code quality and developer happiness",
+  "repository": "https://github.com/wemake-services/wemake-vue-template.git",
+  "author": "sobolevn <mail@sobolevn.me>",
+  "license": "MIT",
+  "engines": {
+    "node": "12.14"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest ./tests"
+  },
+  "jest": {
+    "transform": {},
+    "roots": [
+      "tests"
+    ]
+  },
+  "devDependencies": {
+    "@wemake-services/eslint-config-javascript": "^0.4.3",
+    "@wemake-services/eslint-config-jest": "^0.2.3",
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-sonarjs": "^0.9.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-unicorn": "^19.0.1",
+    "jest": "^27.0.6",
+    "vue-cli": "^2.9.6"
+  },
+  "dependencies": {}
+}
